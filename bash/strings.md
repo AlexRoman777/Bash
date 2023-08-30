@@ -7,6 +7,10 @@
 
 ---
 
+[🔙](../README.md)
+
+---
+
 - [STRINGS](#strings)
   - [Trim leading and trailing white-space from string](#trim-leading-and-trailing-white-space-from-string)
   - [Trim all white-space from string and truncate spaces](#trim-all-white-space-from-string-and-truncate-spaces)
@@ -480,6 +484,6 @@ if [[ $var != *sub_string ]]; then
 fi
 ```
 
-<br>
-
 ---
+
+[🔝](#strings)[🔙](../README.md)
