@@ -64,6 +64,10 @@ $ trim_string "$name"
 John Black
 ```
 
+[🔝](#strings)
+
+---
+
 ## Trim all white-space from string and truncate spaces
 
 This is an alternative to `sed`, `awk`, `perl` and other tools. The
@@ -93,6 +97,10 @@ $ name="   John   Black  is     my    name.    "
 $ trim_all "$name"
 John Black is my name.
 ```
+
+[🔝](#strings)
+
+---
 
 ## Use regex on a string
 
@@ -149,6 +157,10 @@ is_hex_color "$color" || color="#FFFFFF"
 # Do stuff.
 ```
 
+[🔝](#strings)
+
+---
+
 ## Split a string on a delimiter
 
 **CAVEAT:** Requires `bash` 4+
@@ -191,6 +203,10 @@ is
 john
 ```
 
+[🔝](#strings)
+
+---
+
 ## Change a string to lowercase
 
 **CAVEAT:** Requires `bash` 4+
@@ -216,6 +232,10 @@ hello
 $ lower "hello"
 hello
 ```
+
+[🔝](#strings)
+
+---
 
 ## Change a string to uppercase
 
@@ -243,6 +263,10 @@ $ upper "HELLO"
 HELLO
 ```
 
+[🔝](#strings)
+
+---
+
 ## Reverse a string case
 
 **CAVEAT:** Requires `bash` 4+
@@ -269,6 +293,10 @@ $ reverse_case "HELLO"
 hello
 ```
 
+[🔝](#strings)
+
+---
+
 ## Trim quotes from a string
 
 **Example Function:**
@@ -288,6 +316,10 @@ $ var="'Hello', \"World\""
 $ trim_quotes "$var"
 Hello, World
 ```
+
+[🔝](#strings)
+
+---
 
 ## Strip all instances of pattern from string
 
@@ -313,6 +345,10 @@ $ strip_all "The Quick Brown Fox" "Quick "
 The Brown Fox
 ```
 
+[🔝](#strings)
+
+---
+
 ## Strip first occurrence of pattern from string
 
 **Example Function:**
@@ -334,6 +370,10 @@ $ strip "The Quick Brown Fox" "[[:space:]]"
 TheQuick Brown Fox
 ```
 
+[🔝](#strings)
+
+---
+
 ## Strip pattern from start of string
 
 **Example Function:**
@@ -352,6 +392,10 @@ $ lstrip "The Quick Brown Fox" "The "
 Quick Brown Fox
 ```
 
+[🔝](#strings)
+
+---
+
 ## Strip pattern from end of string
 
 **Example Function:**
@@ -369,6 +413,10 @@ rstrip() {
 $ rstrip "The Quick Brown Fox" " Fox"
 The Quick Brown
 ```
+
+[🔝](#strings)
+
+---
 
 ## Percent-encode a string
 
@@ -401,6 +449,10 @@ $ urlencode "https://github.com/AlexRoman777/Linux-I"
 https%3A%2F%2Fgithub.com%2FAlexRoman777%2FLinux-I
 ```
 
+[🔝](#strings)
+
+---
+
 ## Decode a percent-encoded string
 
 **Example Function:**
@@ -419,6 +471,10 @@ urldecode() {
 $ urldecode "https%3A%2F%2Fgithub.com%2FAlexRoman777%2FLinux-I"
 https://github.com/AlexRoman777/Linux-I
 ```
+
+[🔝](#strings)
+
+---
 
 ## Check if string contains a sub-string
 
@@ -458,6 +514,10 @@ case "$var" in
 esac
 ```
 
+[🔝](#strings)
+
+---
+
 ## Check if string starts with sub-string
 
 ```shell
@@ -470,6 +530,10 @@ if [[ $var != sub_string* ]]; then
     printf '%s\n' "var does not start with sub_string."
 fi
 ```
+
+[🔝](#strings)
+
+---
 
 ## Check if string ends with sub-string
 
