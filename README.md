@@ -29,12 +29,6 @@
     <td><a href="bash/strings.md"><strong>Strings</strong></a></td>
     <td><a href="bash/variables.md"><strong>Conversion</strong></a></td>
   </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
 </table>
 
 ---
