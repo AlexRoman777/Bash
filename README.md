@@ -6,13 +6,38 @@
 
 <div align="center">
 
-|  |  |  |  |
-|:---:|:---:|:---:|:---:|
-| [**`Arrays`**](bash/arrays.md) | [**`Functions`**](bash/functions.md) | [**`Loops`**](bash/loops.md) | [**`Variables`**](bash/variables.md) |
-| [**`Conditions`**](bash/conditions.md) | [**`Files`**](bash/files.md) | [**`Input`**](bash/input.md) | [**`Output`**](bash/output.md) |
-| [**`Subshells`**](bash/subshells.md) | [**`Debugging`**](bash/debugging.md) | [**`Signals`**](bash/signals.md) | [**`Traps`**](bash/traps.md) |
-| [**`Exit Codes`**](bash/exit-codes.md) | [**`Misc`**](bash/misc.md) | [**`Strings`**](bash/strings.md) | [**`Conversion`**](bash/variables.md) |
-|  |  |  |  |
+<table>
+  <tr>
+    <td><a href="bash/arrays.md"><strong>Arrays</strong></a></td>
+    <td><a href="bash/functions.md"><strong>Functions</strong></a></td>
+    <td><a href="bash/loops.md"><strong>Loops</strong></a></td>
+    <td><a href="bash/variables.md"><strong>Variables</strong></a></td>
+  </tr>
+  <tr>
+    <td><a href="bash/conditions.md"><strong>Conditions</strong></a></td>
+    <td><a href="bash/files.md"><strong>Files</strong></a></td>
+    <td><a href="bash/input.md"><strong>Input</strong></a></td>
+    <td><a href="bash/output.md"><strong>Output</strong></a></td>
+  </tr>
+  <tr>
+    <td><a href="bash/subshells.md"><strong>Subshells</strong></a></td>
+    <td><a href="bash/debugging.md"><strong>Debugging</strong></a></td>
+    <td><a href="bash/signals.md"><strong>Signals</strong></a></td>
+    <td><a href="bash/traps.md"><strong>Traps</strong></a></td>
+  </tr>
+  <tr>
+    <td><a href="bash/exit-codes.md"><strong>Exit Codes</strong></a></td>
+    <td><a href="bash/misc.md"><strong>Misc</strong></a></td>
+    <td><a href="bash/strings.md"><strong>Strings</strong></a></td>
+    <td><a href="bash/variables.md"><strong>Conversion</strong></a></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
 </div>
 
