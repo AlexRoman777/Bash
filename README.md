@@ -4,9 +4,7 @@
 
 <h1 align="center">Bash</h1>
 
-<div align="center">
-
-<table>
+<table align="center">
   <tr>
     <td><a href="bash/arrays.md"><strong>Arrays</strong></a></td>
     <td><a href="bash/functions.md"><strong>Functions</strong></a></td>
@@ -38,7 +36,5 @@
     <td></td>
   </tr>
 </table>
-
-</div>
 
 ---
