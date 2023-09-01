@@ -1,6 +1,6 @@
-
 *.md
 !strings.md
+!arrays.md
 !README.md
 
 

@@ -11,30 +11,25 @@
 
 ---
 
-- [STRINGS](#strings)
-  - [Trim leading and trailing white-space from string](#trim-leading-and-trailing-white-space-from-string)
-  - [Trim all white-space from string and truncate spaces](#trim-all-white-space-from-string-and-truncate-spaces)
-  - [Use regex on a string](#use-regex-on-a-string)
-  - [Split a string on a delimiter](#split-a-string-on-a-delimiter)
-  - [Change a string to lowercase](#change-a-string-to-lowercase)
-  - [Change a string to uppercase](#change-a-string-to-uppercase)
-  - [Reverse a string case](#reverse-a-string-case)
-  - [Trim quotes from a string](#trim-quotes-from-a-string)
-  - [Strip all instances of pattern from string](#strip-all-instances-of-pattern-from-string)
-  - [Strip first occurrence of pattern from string](#strip-first-occurrence-of-pattern-from-string)
-  - [Strip pattern from start of string](#strip-pattern-from-start-of-string)
-  - [Strip pattern from end of string](#strip-pattern-from-end-of-string)
-  - [Percent-encode a string](#percent-encode-a-string)
-  - [Decode a percent-encoded string](#decode-a-percent-encoded-string)
-  - [Check if string contains a sub-string](#check-if-string-contains-a-sub-string)
-  - [Check if string starts with sub-string](#check-if-string-starts-with-sub-string)
-  - [Check if string ends with sub-string](#check-if-string-ends-with-sub-string)
+- [Trim leading and trailing white-space from string](#trim-leading-and-trailing-white-space-from-string)
+- [Trim all white-space from string and truncate spaces](#trim-all-white-space-from-string-and-truncate-spaces)
+- [Use regex on a string](#use-regex-on-a-string)
+- [Split a string on a delimiter](#split-a-string-on-a-delimiter)
+- [Change a string to lowercase](#change-a-string-to-lowercase)
+- [Change a string to uppercase](#change-a-string-to-uppercase)
+- [Reverse a string case](#reverse-a-string-case)
+- [Trim quotes from a string](#trim-quotes-from-a-string)
+- [Strip all instances of pattern from string](#strip-all-instances-of-pattern-from-string)
+- [Strip first occurrence of pattern from string](#strip-first-occurrence-of-pattern-from-string)
+- [Strip pattern from start of string](#strip-pattern-from-start-of-string)
+- [Strip pattern from end of string](#strip-pattern-from-end-of-string)
+- [Percent-encode a string](#percent-encode-a-string)
+- [Decode a percent-encoded string](#decode-a-percent-encoded-string)
+- [Check if string contains a sub-string](#check-if-string-contains-a-sub-string)
+- [Check if string starts with sub-string](#check-if-string-starts-with-sub-string)
+- [Check if string ends with sub-string](#check-if-string-ends-with-sub-string)
 
 ---
-
-<br>
-
-# STRINGS
 
 ## Trim leading and trailing white-space from string
 
@@ -64,7 +59,7 @@ $ trim_string "$name"
 John Black
 ```
 
-[🔝](#strings)
+[🔝](#trim-leading-and-trailing-white-space-from-string)
 
 ---
 
@@ -98,7 +93,7 @@ $ trim_all "$name"
 John Black is my name.
 ```
 
-[🔝](#strings)
+[🔝](#trim-leading-and-trailing-white-space-from-string)
 
 ---
 
@@ -157,7 +152,7 @@ is_hex_color "$color" || color="#FFFFFF"
 # Do stuff.
 ```
 
-[🔝](#strings)
+[🔝](#trim-leading-and-trailing-white-space-from-string)
 
 ---
 
@@ -203,7 +198,7 @@ is
 john
 ```
 
-[🔝](#strings)
+[🔝](#trim-leading-and-trailing-white-space-from-string)
 
 ---
 
@@ -233,7 +228,7 @@ $ lower "hello"
 hello
 ```
 
-[🔝](#strings)
+[🔝](#trim-leading-and-trailing-white-space-from-string)
 
 ---
 
@@ -263,7 +258,7 @@ $ upper "HELLO"
 HELLO
 ```
 
-[🔝](#strings)
+[🔝](#trim-leading-and-trailing-white-space-from-string)
 
 ---
 
@@ -293,7 +288,7 @@ $ reverse_case "HELLO"
 hello
 ```
 
-[🔝](#strings)
+[🔝](#trim-leading-and-trailing-white-space-from-string)
 
 ---
 
@@ -317,7 +312,7 @@ $ trim_quotes "$var"
 Hello, World
 ```
 
-[🔝](#strings)
+[🔝](#trim-leading-and-trailing-white-space-from-string)
 
 ---
 
@@ -345,7 +340,7 @@ $ strip_all "The Quick Brown Fox" "Quick "
 The Brown Fox
 ```
 
-[🔝](#strings)
+[🔝](#trim-leading-and-trailing-white-space-from-string)
 
 ---
 
@@ -370,7 +365,7 @@ $ strip "The Quick Brown Fox" "[[:space:]]"
 TheQuick Brown Fox
 ```
 
-[🔝](#strings)
+[🔝](#trim-leading-and-trailing-white-space-from-string)
 
 ---
 
@@ -392,7 +387,7 @@ $ lstrip "The Quick Brown Fox" "The "
 Quick Brown Fox
 ```
 
-[🔝](#strings)
+[🔝](#trim-leading-and-trailing-white-space-from-string)
 
 ---
 
@@ -414,7 +409,7 @@ $ rstrip "The Quick Brown Fox" " Fox"
 The Quick Brown
 ```
 
-[🔝](#strings)
+[🔝](#trim-leading-and-trailing-white-space-from-string)
 
 ---
 
@@ -449,7 +444,7 @@ $ urlencode "https://github.com/AlexRoman777/Linux-I"
 https%3A%2F%2Fgithub.com%2FAlexRoman777%2FLinux-I
 ```
 
-[🔝](#strings)
+[🔝](#trim-leading-and-trailing-white-space-from-string)
 
 ---
 
@@ -472,7 +467,7 @@ $ urldecode "https%3A%2F%2Fgithub.com%2FAlexRoman777%2FLinux-I"
 https://github.com/AlexRoman777/Linux-I
 ```
 
-[🔝](#strings)
+[🔝](#trim-leading-and-trailing-white-space-from-string)
 
 ---
 
@@ -514,7 +509,7 @@ case "$var" in
 esac
 ```
 
-[🔝](#strings)
+[🔝](#trim-leading-and-trailing-white-space-from-string)
 
 ---
 
@@ -531,7 +526,7 @@ if [[ $var != sub_string* ]]; then
 fi
 ```
 
-[🔝](#strings)
+[🔝](#trim-leading-and-trailing-white-space-from-string)
 
 ---
 
@@ -550,4 +545,4 @@ fi
 
 ---
 
-[🔝](#strings)[🔙](../README.md)
+[🔝](#trim-leading-and-trailing-white-space-from-string)[🔙](../README.md)
