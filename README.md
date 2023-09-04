@@ -13,7 +13,7 @@
   </tr>
   <tr>
     <td><a href="bash/conditions.md"><strong>Conditions</strong></a></td>
-    <td><a href="bash/files.md"><strong>Files</strong></a></td>
+    <td><a href="bash/file_handling.md"><strong>File Handling</strong></a></td>
     <td><a href="bash/input.md"><strong>Input</strong></a></td>
     <td><a href="bash/output.md"><strong>Output</strong></a></td>
   </tr>
