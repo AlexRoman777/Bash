@@ -7,13 +7,13 @@
 <table align="center">
   <tr>
     <td><a href="bash/arrays.md"><strong>Arrays</strong></a></td>
-    <td><a href="bash/functions.md"><strong>Functions</strong></a></td>
+    <td><a href="bash/file_handling.md"><strong>File Handling</strong></a></td>
     <td><a href="bash/loops.md"><strong>Loops</strong></a></td>
-    <td><a href="bash/variables.md"><strong>Variables</strong></a></td>
+    <td><a href="bash/strings.md"><strong>Strings</strong></a></td>
   </tr>
   <tr>
     <td><a href="bash/conditions.md"><strong>Conditions</strong></a></td>
-    <td><a href="bash/file_handling.md"><strong>File Handling</strong></a></td>
+    <td><a href="bash/functions.md"><strong>Functions</strong></a></td>
     <td><a href="bash/input.md"><strong>Input</strong></a></td>
     <td><a href="bash/output.md"><strong>Output</strong></a></td>
   </tr>
@@ -26,7 +26,6 @@
   <tr>
     <td><a href="bash/exit-codes.md"><strong>Exit Codes</strong></a></td>
     <td><a href="bash/misc.md"><strong>Misc</strong></a></td>
-    <td><a href="bash/strings.md"><strong>Strings</strong></a></td>
     <td><a href="bash/variables.md"><strong>Conversion</strong></a></td>
   </tr>
 </table>
